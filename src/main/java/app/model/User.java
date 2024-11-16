@@ -28,9 +28,6 @@ public class User {
     @Column(name = "email")
     private String email;
 
-    @Column(name = "income", columnDefinition = "int default 0")
-    private int income;
-
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "car_id")
     private Car car;

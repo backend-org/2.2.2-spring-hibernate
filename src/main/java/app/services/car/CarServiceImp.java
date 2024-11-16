@@ -1,6 +1,6 @@
 package app.services.car;
 
-import app.dao.CarDao;
+import app.dao.car.CarDao;
 import app.model.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

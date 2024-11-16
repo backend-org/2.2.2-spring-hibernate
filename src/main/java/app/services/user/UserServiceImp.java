@@ -1,6 +1,6 @@
 package app.services.user;
 
-import app.dao.UserDao;
+import app.dao.user.UserDao;
 import app.model.Car;
 import app.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
