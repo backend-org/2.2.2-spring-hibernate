@@ -4,8 +4,8 @@ import app.config.LoanProperties;
 import app.exceptions.UserNotFoundException;
 import app.model.Car;
 import app.model.User;
-import app.services.user.IncomeService;
 import app.services.user.UserService;
+import org.example.beans.IncomeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
